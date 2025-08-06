@@ -2,11 +2,11 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1712449641,
-        "narHash": "sha256-U9DDWMexN6o5Td2DznEgguh8TRIUnIl9levmit43GcI=",
+        "lastModified": 1754340878,
+        "narHash": "sha256-lgmUyVQL9tSnvvIvBp7x1euhkkCho7n3TMzgjdvgPoU=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "600b15aea1b36eeb43833a50b0e96579147099ff",
+        "rev": "cab778239e705082fe97bb4990e0d24c50924c04",
         "type": "github"
       },
       "original": {
@@ -18,7 +18,24 @@
     },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "src-scadformat": "src-scadformat"
+      }
+    },
+    "src-scadformat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1753833917,
+        "narHash": "sha256-X8STNxywwu3AirR0yrVGaduIU/P9ryJoLJXeBp64qJs=",
+        "owner": "hugheaves",
+        "repo": "scadformat",
+        "rev": "8fb4c4c2d644dc4b9f76f03dd58791a5bcc43b7b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hugheaves",
+        "repo": "scadformat",
+        "type": "github"
       }
     }
   },
