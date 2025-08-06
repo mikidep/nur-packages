@@ -18,24 +18,7 @@
     },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs",
-        "src-scadformat": "src-scadformat"
-      }
-    },
-    "src-scadformat": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1753833917,
-        "narHash": "sha256-X8STNxywwu3AirR0yrVGaduIU/P9ryJoLJXeBp64qJs=",
-        "owner": "hugheaves",
-        "repo": "scadformat",
-        "rev": "8fb4c4c2d644dc4b9f76f03dd58791a5bcc43b7b",
-        "type": "github"
-      },
-      "original": {
-        "owner": "hugheaves",
-        "repo": "scadformat",
-        "type": "github"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
