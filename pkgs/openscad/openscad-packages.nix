@@ -21,8 +21,8 @@ in
     mikidep-scad = fetchFromGitHub {
       owner = "mikidep";
       repo = "mikidep-scad";
-      rev = "f3c4741";
-      hash = "sha256-nWQZIS/uCDhbf/kw0otrAUP60Ygq9eY0fSMVWhSQTLU=";
+      rev = "ae650c8";
+      hash = "sha256-DYqpqExrRtV41Q3xQ/tAtv1JdUTapamhLsTiaU5RqYw=";
     };
     fastvoronoi = ./fastvoronoi;
   }
