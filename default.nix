@@ -14,4 +14,6 @@
   scadformat = pkgs.callPackage ./pkgs/scadformat {};
   # agdaPackages = pkgs.callPackage ./pkgs/agda/agda-packages.nix {};
   ttymidi = pkgs.callPackage ./pkgs/ttymidi {};
+  openscadWithPackages = pkgs.callPackage ./pkgs/openscad/openscad-with-packages.nix {};
+  openscadPackages = pkgs.callPackage ./pkgs/openscad/openscad-packages.nix {};
 }
